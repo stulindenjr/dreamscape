@@ -102,15 +102,25 @@ nav ul li a {
 /* Flex-container section */
 
 .flex-container{
+	padding: 0;
+	margin: 0;
+	width: 0 auto;
 	display: flex;
 	flex-flow: row wrap;
-	width: 90%;
-	margin: 0 auto;
-
-
+	justify-content: center;
 }
 
-S
+.flex-child{
+	padding: 5px;
+	width: 400px;
+	height: 400px;
+	justify-content: center;
+}
+
+
+
+
+
 
 /* all link section */
 
