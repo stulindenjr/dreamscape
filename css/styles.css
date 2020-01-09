@@ -1,15 +1,14 @@
-
-
-
 /**** Base Styles ****/
 body{
 	font-family: 'Cormorant Unicase', serif;
-	font: white;
+	font: silver;
 	background-color: black;
 }
 
 #about, #artists, #contact {
-    height: 500px;
+		height: 500px;
+		width: 1200px;
+		margin: 0 auto;
 }
 /**** Grid ****/
 .full-width{
@@ -33,10 +32,6 @@ header{
 	height: 400px;
 }
 
-
-
-
-
 /***** About CSS *****/
 
 #about .full-width {
@@ -51,8 +46,8 @@ header{
 }
 
 #about p {
+	color: white;
 	font-size: 30px;
-	color: silver;
 	line-height: 40px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -77,50 +72,41 @@ nav ul li a {
 
 /***** Contact CSS *****/
 
-
-
 #contact .full-width {
 	padding: 110px 0;
 }
-
 
 #contact, h2{
 	text-align: center;
 	color: silver;
 	text-transform: uppercase;
 }
-
-
+/* Artists */
 #artist p{
 
-	color: silver;
+	
 	text-transform: uppercase;
-	margin: 45px;
-
 }
 
 /* Flex-container section */
 
 .flex-container{
-	padding: 0;
-	margin: 0;
-	width: 0 auto;
+	background-color: whitesmoke;
+	margin: 0 auto;
+	width: 1200px;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+	
 }
 
 .flex-child{
-	padding: 5px;
-	width: 400px;
-	height: 400px;
-	justify-content: center;
+	justify-items: center;
+	padding: 20px;
+	width: 300px;
+	height: 500px;
+	
 }
-
-
-
-
-
 
 /* all link section */
 
